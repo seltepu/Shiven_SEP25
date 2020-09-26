@@ -1,0 +1,81 @@
+section 1: Exercises
+
+    Step 1: Create a public repo <your_name>_25SEP in github , do following steps after clone it to your local.
+    Step 2: Create a file Answers.txt
+    Step 3: Copy everything from this file into Answers.txt, and add your answers.
+
+
+- create a file "fruits.txt" add "Strawberry"  as first line  ( in default master branch) commit
+
+- create a branch named "dev" and checkout
+  Edit fruits.txt , add "Orange" as second line - commit it
+
+- create a branch named "test" from master and checkout
+  Edit fruits.txt add "Apple" as second line - commit it
+
+- Checkout master
+  Edit fruits.txt add "Grape" as second line - commit it
+
+- merge test branch with master , if there is merge conflict resolve it , (include all the fruits)
+- Delete test branch
+
+- merge dev branch with master , resolve conflict and commit
+
+(At the end fruits.txt would have all the fruits)
+- Create a tag called  "All_fruits"
+
+- In master branch add "Jack" to fruits.txt and commit
+
+- reset last commit with soft and in fruits.txt update "Jack" to "JackD"
+
+- revert last commit
+
+- push the changes
+Include url your repository url here
+
+----------------------------------------------------------------------------------
+
+section 2:   Answer following questions from current repository
+
+  At commit 4f28985,
+      - How many files edited ?
+
+      1 file was changed
+
+      - At file products.txt what was the change made  ?
+
+      Grape was added
+
+  - How many branches were created in this repository ?
+
+
+  - Can you make your repository ignore all any  .jpg  ( i.e, any file ends with .jpg)
+
+
+    - What is the SHA id of tag "V5.1" ?
+    - What is the command to delete tag "V5.0"
+
+----------------------------------------------------------------------------------
+section3: Answer following Questions :
+
+  - Why would you use branch ?
+
+You would use a branch to work in the same repository in different places without changing the wole repository itself. It used for working in two different places at once.
+
+  - When will you use git show ?
+
+  - What files would be ignored if .gitignore has  *.png
+    a) grape.png b) grape.txt c) orange.png d) orange.txt
+
+The files that will be ignored are grape.png and orange.png
+----------------------------------------------------------------------------------
+
+section4 : Group discussion and give common answer
+
+  - When will you use revert and reset ?
+
+  - git reset : explain diff between git reset --mixed , --soft --hard
+
+  - can you recover file if you do git reset --hard
+
+  - Why do you use git diff ?
